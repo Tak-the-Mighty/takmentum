@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TakMenTum</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="l_center">
+        <div class="js-clock">
+          <h1>00:00</h1>
+        </div>
+      </div>
+
+      <div class="l_center">
+        <h4 class="js-greeting greeting"></h4>
+      </div>
+
+      <div class="l_center">
+        <form class="js-form form">
+          <input type="text" placeholder="what is your name?" />
+        </form>
+      </div>
+
+      <div class="l_center">
+        <div class="l_todo">
+          <h3>¿Cuál es su enfoque principal para hoy?</h3>
+          <form class="js-toDoForm">
+            <input type="text" class="entry" />
+          </form>
+        </div>
+      </div>
+      <div class="l_center">
+        <div class="td_container">
+          <ul class="js-toDoList"></ul>
+        </div>
+      </div>
+    </div>
+    <div class="js-weather"></div>
+
+    <script src="./weather.js"></script>
+    <script src="./bg.js"></script>
+    <script src="./greeting.js"></script>
+    <script src="./clock.js"></script>
+    <script src="./index.js"></script>
+    <script src="./todo.js"></script>
+  </body>
+</html>
